@@ -2,7 +2,7 @@ package git.sample;
 
 public class Car {
 	private int speed;
-	private String bodyColor;
+	private String bodyColor = "blue";
 
 	public int getSpeed() {
 		return speed;
